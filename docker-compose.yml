@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql:8.4.4  # mysql 8.4.x are LTS versions, maintained until 2032.
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      # - DB_CONFIG_AUTO_RELOAD=TRUE
+    ports:
+      - "3306:3306"
+    volumes:
+#      - ./config/my.cnf:/etc/mysql/my.cnf
+      - ./data:/var/lib/mysql

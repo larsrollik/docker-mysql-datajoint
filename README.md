@@ -3,6 +3,7 @@
 ## Features
 - [MySQL 8.4 LTS](https://dev.mysql.com/blog-archive/introducing-mysql-innovation-and-long-term-support-lts-versions/) for long-term stability and performance.
 - Preconfigured settings tailored for [DataJoint](https://github.com/datajoint).
+- Tested against datajoint package tests in [DataJoint/python](https://github.com/datajoint/datajoint-python)
 - Preconfigured for MySQL replication
 
 ## Usage
